@@ -203,3 +203,39 @@ Ignore spaces and case while checking a palindrome.
 ### Key Concepts used in UC10:
 - String preprocessing
 - Regular expressions
+
+# UC11: Object-Oriented Palindrome Service
+
+### Goal: 
+Encapsulate palindrome logic in a class.
+### Flow:
+- Create PalindromeChecker class
+- Expose checkPalindrome() method
+### Key Concepts used in UC11 (OOPS):
+- Encapsulation
+- Single Responsibility Principle
+- Data Structure: Internal (Stack / Array)
+
+# UC12: Strategy Pattern for Palindrome Algorithms (Advanced)
+
+### Goal: 
+Choose a palindrome algorithm dynamically.
+### Flow:
+- Define PalindromeStrategy interface
+- Implement StackStrategy, DequeStrategy
+- Inject strategy at runtime
+### Key Concepts used in UC12:
+- Interface
+- Polymorphism
+- Strategy Pattern
+
+# UC13: Performance Comparison
+### Goal: 
+Compare the performance of different palindrome approaches.
+### Flow:
+- Run multiple algorithms
+- Capture execution time
+- Display results
+### Key Concepts used in UC13:
+- System.nanoTime()
+- Algorithm comparison
